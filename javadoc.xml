@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="public" additionalparam=" -tag pre:cm:&quot;Preconditions&quot;&#10;-tag post:cm:&quot;Postconditions&quot;" author="true" classpath="/usr/share/eclipse/dropins/jdt/plugins/org.hamcrest.core_1.1.0.jar:/usr/share/eclipse/dropins/jdt/plugins/org.junit_4.8.2.dist/junit.jar" destdir="doc" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" packagenames="nguyenti.util" source="1.7" sourcepath="src" splitindex="true" use="true" version="true"/>
+    </target>
+</project>

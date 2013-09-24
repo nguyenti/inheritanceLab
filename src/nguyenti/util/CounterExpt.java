@@ -4,7 +4,7 @@ import java.io.PrintWriter;
 
 public class CounterExpt {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         // Set up output
         PrintWriter pen = new PrintWriter(System.out, true);
 
