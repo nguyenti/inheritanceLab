@@ -6,4 +6,8 @@ public class DecrementableCounter extends Counter {
 	super(start);
     } // DecrementableCounter(int)
 
+    public void decrement() {
+	this.count--;
+    }
+
 } // class DecrementableCounter
